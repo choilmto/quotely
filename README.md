@@ -2,11 +2,11 @@
 
 ## Building the project
 
-`mvn package` builds the project
+`mvn clean compile assembly:single` builds the project
 
 ## Running the project
 
-`java -cp target/quotely-1.0-SNAPSHOT.jar com.choilmto.app.App <argument>` runs the project. `<argument>` is the
+`java -jar target/quotely-1.0-SNAPSHOT-jar-with-dependencies.jar [ARGS]` runs the project. `[ARGS]` is the
 language specified, either English or Russian.
 
 ## Running the test suite
